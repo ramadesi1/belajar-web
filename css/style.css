@@ -1,0 +1,178 @@
+/* RESET  */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* REUSABLE CLASS */
+.row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* SECTION HEADER */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #fbfbfc;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+}
+
+header a {
+  text-indent: tomato;
+  margin: 0 15px 0 15px;
+}
+
+#logo {
+  height: 80px;
+  width: auto;
+  float: left;
+}
+
+nav {
+  float: right;
+  font-size: medium;
+  color: black;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  margin: 0;
+}
+li:hover {
+  background-color: rgb(223, 72, 72);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+}
+
+nav b {
+  color: black;
+}
+/* END OF SECTION HEADER */
+
+#section-1 {
+  background-image: url("../image/section1.jpg");
+  height: 100vh;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+strong {
+  color: rgb(223, 72, 72);
+}
+
+.title {
+  margin-top: 300px;
+  color: black;
+  font-size: 30px;
+}
+
+#section-1 p {
+  font-size: 25px;
+}
+
+#section-1 h2 {
+  font-size: 40px;
+}
+
+#section-2 {
+  height: auto;
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+#section-2 p {
+  margin: 0 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 19px;
+  color: rgb(105, 97, 97);
+  text-align: justify;
+}
+
+.icon-big {
+  color: rgb(223, 72, 72);
+  margin: 10px;
+}
+
+#section-3 {
+  height: auto;
+  background-color: #8cc3ca;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+#section-3 p {
+  color: rgb(214, 25, 25);
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(85, 82, 82);
+  margin: 30px;
+}
+
+.icon-big2 {
+  margin: 10px;
+  border: 2px;
+  border-radius: 100%;
+  border-color: red;
+}
+
+.animation {
+  animation: mymove 5s infinite;
+  animation-delay: 1s;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 700px;
+  }
+}
